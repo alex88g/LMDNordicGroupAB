@@ -9,9 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack{
-            Color("Blue")
-                .ignoresSafeArea()
+        
             VStack(alignment: .leading,spacing: 0){
                 
                 Button(action: {
@@ -20,7 +18,7 @@ struct HomeView: View {
                     Link(destination: URL(string: "https://lmdnordic.se/")!) {
                         
                         Text("Besök vår LMD hemsida")
-                            .foregroundColor(.white)
+                            .foregroundColor(.blue)
                     }
                     .padding(.leading)
                 }
@@ -47,7 +45,7 @@ struct HomeView: View {
             }
         }
     }
-}
+
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()

@@ -26,7 +26,7 @@ struct AboutUsView: View {
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
                 
-                Text("LMD Nordic är verksamhet med spetsad kompetens av erfarna personal som är utbildade och specialiserade inom skönhetsbehandlings område. Vi finns här för er edan år 2020. Vill du korrigera och ändra utsieende samt se naturligt ut tveka inte höra av er. Ert LMD Nordic ")
+                Text("LMD Nordic är verksamhet med spetsad kompetens av erfarna personal som är utbildade och specialiserade inom skönhetsbehandlings område. Vi finns här för er sedan år 2020. Vill du korrigera och ändra utsieende samt se naturligt ut tveka inte höra av er. Ert LMD Nordic ")
                     .font(.caption)
                     .fontWeight(.semibold)
                     .foregroundColor(.gray)
