@@ -14,6 +14,16 @@
 		F0C474F829AF7F4500923742 /* LMDNordicGroupABTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C474F729AF7F4500923742 /* LMDNordicGroupABTests.swift */; };
 		F0C4750229AF7F4600923742 /* LMDNordicGroupABUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4750129AF7F4600923742 /* LMDNordicGroupABUITests.swift */; };
 		F0C4750429AF7F4600923742 /* LMDNordicGroupABUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4750329AF7F4600923742 /* LMDNordicGroupABUITestsLaunchTests.swift */; };
+		F0C4751229AF838D00923742 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751129AF838D00923742 /* MainView.swift */; };
+		F0C4751429AF83BE00923742 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751329AF83BE00923742 /* SideMenu.swift */; };
+		F0C4751629AF83E400923742 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751529AF83E400923742 /* AboutUsView.swift */; };
+		F0C4751829AF840700923742 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751729AF840700923742 /* CustomCorners.swift */; };
+		F0C4751A29AF841F00923742 /* tabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751929AF841F00923742 /* tabButton.swift */; };
+		F0C4751C29AF844200923742 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751B29AF844200923742 /* Home.swift */; };
+		F0C4751E29AF846900923742 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751D29AF846900923742 /* MapView.swift */; };
+		F0C4752029AF847A00923742 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751F29AF847A00923742 /* HomeView.swift */; };
+		F0C4752229AF848C00923742 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4752129AF848C00923742 /* SettingsView.swift */; };
+		F0C4752429AF849E00923742 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4752329AF849E00923742 /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		F0C474FD29AF7F4600923742 /* LMDNordicGroupABUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMDNordicGroupABUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C4750129AF7F4600923742 /* LMDNordicGroupABUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMDNordicGroupABUITests.swift; sourceTree = "<group>"; };
 		F0C4750329AF7F4600923742 /* LMDNordicGroupABUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMDNordicGroupABUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0C4751129AF838D00923742 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F0C4751329AF83BE00923742 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		F0C4751529AF83E400923742 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		F0C4751729AF840700923742 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		F0C4751929AF841F00923742 /* tabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabButton.swift; sourceTree = "<group>"; };
+		F0C4751B29AF844200923742 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F0C4751D29AF846900923742 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F0C4751F29AF847A00923742 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F0C4752129AF848C00923742 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F0C4752329AF849E00923742 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +114,7 @@
 		F0C474E529AF7F3F00923742 /* LMDNordicGroupAB */ = {
 			isa = PBXGroup;
 			children = (
+				F0C4751029AF837A00923742 /* View */,
 				F0C474E629AF7F3F00923742 /* LMDNordicGroupABApp.swift */,
 				F0C474E829AF7F3F00923742 /* ContentView.swift */,
 				F0C474EA29AF7F4400923742 /* Assets.xcassets */,
@@ -125,6 +146,23 @@
 				F0C4750329AF7F4600923742 /* LMDNordicGroupABUITestsLaunchTests.swift */,
 			);
 			path = LMDNordicGroupABUITests;
+			sourceTree = "<group>";
+		};
+		F0C4751029AF837A00923742 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4751129AF838D00923742 /* MainView.swift */,
+				F0C4751329AF83BE00923742 /* SideMenu.swift */,
+				F0C4751529AF83E400923742 /* AboutUsView.swift */,
+				F0C4751729AF840700923742 /* CustomCorners.swift */,
+				F0C4751929AF841F00923742 /* tabButton.swift */,
+				F0C4751B29AF844200923742 /* Home.swift */,
+				F0C4751D29AF846900923742 /* MapView.swift */,
+				F0C4751F29AF847A00923742 /* HomeView.swift */,
+				F0C4752129AF848C00923742 /* SettingsView.swift */,
+				F0C4752329AF849E00923742 /* FavoriteView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +296,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C474E929AF7F3F00923742 /* ContentView.swift in Sources */,
+				F0C4751829AF840700923742 /* CustomCorners.swift in Sources */,
+				F0C4751629AF83E400923742 /* AboutUsView.swift in Sources */,
+				F0C4752029AF847A00923742 /* HomeView.swift in Sources */,
+				F0C4752429AF849E00923742 /* FavoriteView.swift in Sources */,
+				F0C4751229AF838D00923742 /* MainView.swift in Sources */,
 				F0C474E729AF7F3F00923742 /* LMDNordicGroupABApp.swift in Sources */,
+				F0C4751A29AF841F00923742 /* tabButton.swift in Sources */,
+				F0C4751C29AF844200923742 /* Home.swift in Sources */,
+				F0C4751E29AF846900923742 /* MapView.swift in Sources */,
+				F0C4751429AF83BE00923742 /* SideMenu.swift in Sources */,
+				F0C4752229AF848C00923742 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
