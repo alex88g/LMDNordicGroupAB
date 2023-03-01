@@ -10,20 +10,24 @@ import SwiftUI
 struct Home: View {
     @Binding var selectedTab: String
     
-    //hiding tab bar
-    init(selectedTab: Binding<String>){
-        self._selectedTab = selectedTab
-        UITabBar.appearance().isHidden = false
-    }
-    
+//    //hiding tab bar
+//    init(selectedTab: Binding<String>){
+//        self._selectedTab = selectedTab
+//        UITabBar.appearance().isHidden = true
+//    }
+//
     var body: some View {
        
         //tab view with tabs
         TabView(selection: $selectedTab){
-            
+
             //Views
-         BackToMainView()
+            
+            BackToMainView()
                 .tag("Home")
+            
+            AboutUsView()
+                .tag("Om oss")
             
             Behandlingar()
                 .tag("Behandlingar")
@@ -33,12 +37,10 @@ struct Home: View {
             
             Historik()
                 .tag("Historik")
-            
-            Notifikationer()
-                .tag("Notifikationer")
-
-            Hjälpcenter()
-                .tag("Hjälpcenter")
+//            Notifikationer()
+//                .tag("Notifikationer")
+//            Hjälpcenter()
+//                .tag("Hjälpcenter")
             
         }
     }
@@ -53,47 +55,44 @@ struct Home_Previews: PreviewProvider {
 struct BackToMainView: View {
     
     var body: some View{
-        
- 
-        NavigationView{
-    
-                    VStack {
-                      
-                        TabView {
-                            
-                                HomeView()
-                                .tabItem{
-                                    Image(systemName: "house.fill")
-                                    Text("Home")
-            //                        .foregroundColor(scheme == .dark ? Color.black : Color.white)
-                                    
+        VStack {
+            
+                    TabView {
+                        HomeView()
+                            .tabItem{
+                                Image(systemName: "house.fill")
+                                Text("Home")
+        //                        .foregroundColor(scheme == .dark ? Color.black : Color.white)
+                                }
+                        MapView()
+                            .tabItem{
+                                Image(systemName: "map.fill")
+                                Text("Map")
 
-                                }
-                            MapView()
-                                .tabItem{
-                                    Image(systemName: "map.fill")
-                                    Text("Map")
-
-                                }
-                            FavoriteView()
-                                .tabItem{
-                                    Image(systemName: "suit.heart")
-                                    Text("Favorite")
-
-                                }
-                            SettingsView()
-                                .tabItem{
-                                    Image(systemName: "gearshape.fill")
-                                    Text("Settings")
-                                    
-                                }
                             }
-                        
+                        FavoriteView()
+                            .tabItem{
+                                Image(systemName: "suit.heart")
+                                Text("Favorite")
+
+                            }
+                        SettingsView()
+                            .tabItem{
+                                Image(systemName: "gearshape.fill")
+                                Text("Settings")
+                                    
+                                
+                            }
+                            
                         }
+                    .padding(.vertical,-100)
+
                     }
+       
                 }
-            }
     
+            }
+
 struct Behandlingar: View {
     
     var body: some View{
@@ -141,34 +140,35 @@ struct Historik: View {
     
 }
 
-struct Notifikationer: View {
-    
-    var body: some View{
-        
-        NavigationView{
-            
-//            Text("Notifikationer")
-//                .font(.largeTitle)
-//                .fontWeight(.heavy)
-//                .foregroundColor(.primary)
-//                .navigationTitle("Notifikationer")
-        }
-    }
-    
-}
-
-struct Hjälpcenter: View {
-    
-    var body: some View{
-        
-        NavigationView{
-            
-//            Text("Hjälpcenter")
-//                .font(.largeTitle)
-//                .fontWeight(.heavy)
-//                .foregroundColor(.primary)
-//                .navigationTitle("Hjälpcenter")
-        }
-    }
-    
-}
+//struct Notifikationer: View {
+//
+//    var body: some View{
+//
+//        NavigationView{
+//
+//            //            Text("Notifikationer")
+//            //                .font(.largeTitle)
+//            //                .fontWeight(.heavy)
+//            //                .foregroundColor(.primary)
+//            //                .navigationTitle("Notifikationer")
+//        }
+//    }
+//}
+//
+//}
+//
+//struct Hjälpcenter: View {
+//
+//    var body: some View{
+//
+//        NavigationView{
+//
+////            Text("Hjälpcenter")
+////                .font(.largeTitle)
+////                .fontWeight(.heavy)
+////                .foregroundColor(.primary)
+////                .navigationTitle("Hjälpcenter")
+//        }
+//    }
+//
+//}

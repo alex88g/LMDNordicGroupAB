@@ -11,6 +11,7 @@ struct MainView: View {
     //selected tab
     @State var selectedTab = "Home"
     @State var showMenu = false
+   
     var body: some View {
         
         ZStack{
@@ -18,11 +19,10 @@ struct MainView: View {
                 .ignoresSafeArea()
             
             //side menu
-            ScrollView(getRect().height < 750 ? .vertical : .init(), showsIndicators: false, content: {
+            ScrollView(getRect().height < 750 ? .vertical : .init(),showsIndicators: false, content: {
                 
                 SideMenu(selectedTab: $selectedTab)
             })
-            
             ZStack{
                 
                 //two backgrounds cards

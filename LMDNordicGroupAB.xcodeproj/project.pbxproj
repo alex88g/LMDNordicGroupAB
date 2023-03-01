@@ -18,7 +18,7 @@
 		F0C4751429AF83BE00923742 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751329AF83BE00923742 /* SideMenu.swift */; };
 		F0C4751629AF83E400923742 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751529AF83E400923742 /* AboutUsView.swift */; };
 		F0C4751829AF840700923742 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751729AF840700923742 /* CustomCorners.swift */; };
-		F0C4751A29AF841F00923742 /* tabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751929AF841F00923742 /* tabButton.swift */; };
+		F0C4751A29AF841F00923742 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751929AF841F00923742 /* TabButton.swift */; };
 		F0C4751C29AF844200923742 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751B29AF844200923742 /* Home.swift */; };
 		F0C4751E29AF846900923742 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751D29AF846900923742 /* MapView.swift */; };
 		F0C4752029AF847A00923742 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C4751F29AF847A00923742 /* HomeView.swift */; };
@@ -58,7 +58,7 @@
 		F0C4751329AF83BE00923742 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		F0C4751529AF83E400923742 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
 		F0C4751729AF840700923742 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
-		F0C4751929AF841F00923742 /* tabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabButton.swift; sourceTree = "<group>"; };
+		F0C4751929AF841F00923742 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		F0C4751B29AF844200923742 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		F0C4751D29AF846900923742 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F0C4751F29AF847A00923742 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 				F0C4751329AF83BE00923742 /* SideMenu.swift */,
 				F0C4751529AF83E400923742 /* AboutUsView.swift */,
 				F0C4751729AF840700923742 /* CustomCorners.swift */,
-				F0C4751929AF841F00923742 /* tabButton.swift */,
+				F0C4751929AF841F00923742 /* TabButton.swift */,
 				F0C4751B29AF844200923742 /* Home.swift */,
 				F0C4751D29AF846900923742 /* MapView.swift */,
 				F0C4751F29AF847A00923742 /* HomeView.swift */,
@@ -302,7 +302,7 @@
 				F0C4752429AF849E00923742 /* FavoriteView.swift in Sources */,
 				F0C4751229AF838D00923742 /* MainView.swift in Sources */,
 				F0C474E729AF7F3F00923742 /* LMDNordicGroupABApp.swift in Sources */,
-				F0C4751A29AF841F00923742 /* tabButton.swift in Sources */,
+				F0C4751A29AF841F00923742 /* TabButton.swift in Sources */,
 				F0C4751C29AF844200923742 /* Home.swift in Sources */,
 				F0C4751E29AF846900923742 /* MapView.swift in Sources */,
 				F0C4751429AF83BE00923742 /* SideMenu.swift in Sources */,

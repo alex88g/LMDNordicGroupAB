@@ -24,25 +24,22 @@ struct SideMenu: View {
             
             VStack(alignment: .leading,spacing: 6, content: {
                 
-                Text("LMD Nordic")
+                Text("LMD")
                     .font(.title)
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
-           
-                    Button(action: {
-                    }){
-                        NavigationLink(destination: AboutUsView()){
-                            Text("Om oss")
-                                .fontWeight(.semibold)
-                                .foregroundColor(.white)
-                                .opacity(0.7)
-                        }
-                    }
+                
+                TabButton(image: "", title:
+                            "Om oss", selectedTab: $selectedTab,
+                          animation: animation)
+                .padding(.horizontal,-20)
                 })
             
             //tab buttons
             VStack(alignment: .leading, spacing: 10){
                 
+                
+
                 TabButton(image: "arrowshape.turn.up.forward", title: "Go tillbaka", selectedTab: $selectedTab, animation: animation)
                 
                 TabButton(image: "syringe", title:
@@ -57,13 +54,13 @@ struct SideMenu: View {
                             "Historik", selectedTab: $selectedTab,
                           animation: animation)
                 
-                TabButton(image: "bell.badge", title:
-                            "Notifikationer", selectedTab: $selectedTab,
-                          animation: animation)
-                
-                TabButton(image: "questionmark.circle", title:
-                            "Hjälpcenter", selectedTab: $selectedTab,
-                          animation: animation)
+//                TabButton(image: "bell.badge", title:
+//                            "Notifikationer", selectedTab: $selectedTab,
+//                          animation: animation)
+//                
+//                TabButton(image: "questionmark.circle", title:
+//                            "Hjälpcenter", selectedTab: $selectedTab,
+//                          animation: animation)
                 
                 
             }
@@ -87,11 +84,13 @@ struct SideMenu: View {
            
         })
         .padding()
-        .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .topLeading)    }
+        .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .topLeading)
+        
+    }
   }
 struct SideMenu_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
 
 
     }
