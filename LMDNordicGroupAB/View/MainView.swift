@@ -19,7 +19,8 @@ struct MainView: View {
                 .ignoresSafeArea()
             
             //side menu
-            ScrollView(getRect().height < 750 ? .vertical : .init(),showsIndicators: false, content: {
+            ScrollView(getRect().height < 750 ? .vertical : .init(),showsIndicators: false,
+                       content: {
                 
                 SideMenu(selectedTab: $selectedTab)
             })
