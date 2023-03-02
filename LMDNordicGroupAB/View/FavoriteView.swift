@@ -12,6 +12,7 @@ struct FavoriteView: View {
             Text("")
         }
     }
+
 struct FavoriteView_Previews: PreviewProvider {
     static var previews: some View {
         FavoriteView()

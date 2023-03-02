@@ -34,7 +34,8 @@ struct SideMenu: View {
                           animation: animation)
                 .padding(.horizontal,-20)
                 })
-            
+           
+         
             //tab buttons
             VStack(alignment: .leading, spacing: 10){
                 
@@ -53,6 +54,17 @@ struct SideMenu: View {
                 TabButton(image: "clock.arrow.circlepath", title:
                             "Historik", selectedTab: $selectedTab,
                           animation: animation)
+                
+                VStack(alignment: .leading,spacing: 15, content: {
+                    Image("LMD7")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 70, height: 70)
+                        .cornerRadius(10)
+                        .padding()
+                    //padding top for top close button
+                        
+                })
                 
 //                TabButton(image: "bell.badge", title:
 //                            "Notifikationer", selectedTab: $selectedTab,
